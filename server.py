@@ -26,7 +26,7 @@ while True:
 conn.close()
 
     # 2, 3
-weather_api = '87f533e8fe8ceca18d456f7f9eea3694'
+weather_api = 'YOUR_API_KEY' # вставь свой api ключ
 
 def get_weather(city):
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={weather_api}&units=metric'
